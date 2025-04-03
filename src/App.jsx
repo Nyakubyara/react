@@ -5,14 +5,16 @@
 // import TryFile from "./array/tryFile";
 // import HomePage from './pages/HomePage';
 // import File from "./comps/File";
-import Work from "./comps/Work";
+// import Work from "./comps/Work";
+import HomePage from './page/HomePage';
 import './index.css';
 
 const App = ()=>
 {
   return(
     <>
-<Work/>
+    <HomePage />
+{/* <Work/> */}
 {/* <File/> */}
 {/* <HomePage/> */}
 {/* <Navbar /> */}

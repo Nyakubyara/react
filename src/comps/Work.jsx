@@ -6,11 +6,11 @@ function Work(){
                 <table className="" >
                 <h2 className="font-bold text-center text-amber-50 ">CONTACT US</h2>
                 <tr><td className="text-amber-50">Name</td></tr>
-                <tr><td><input type="text" name="name" placeholder="Enter your name" className="rounded-sm bg-[#555A7B] p-1 text-white"/></td></tr>
+                <tr><td><input type="text" name="name" placeholder="Enter your name" className="rounded-sm bg-[#555A7B] p-1 text-white" required/></td></tr>
                 <tr><td className="text-amber-50">Email</td></tr>
-                <tr><td><input type="email" name="email" placeholder="Enter your email" className="rounded-sm bg-[#555A7B] p-1 text-white"/></td></tr>
+                <tr><td><input type="email" name="email" placeholder="Enter your email" className="rounded-sm bg-[#555A7B] p-1 text-white" required/></td></tr>
                 <tr><td className="text-amber-50">Message</td></tr>
-                <tr><td><textarea name="message" placeholder="Enter your message" className="rounded-sm bg-[#555A7B] w-47 text-white" ></textarea></td></tr>
+                <tr><td><textarea name="message" placeholder="Enter your message" className="rounded-sm bg-[#555A7B] w-47 text-white" required></textarea></td></tr>
                 <tr><td><input type="submit" className="w-full bg-[#FF7F9C] rounded-sm text-white" value="SEND MESSAGE" /></td></tr>
                 </table>
                 </form>
